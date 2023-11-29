@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "795224354930",
+    "firebase_url": "https://the-social-253a3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "the-social-253a3",
+    "storage_bucket": "the-social-253a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795224354930:android:3dec9575657f22767852eb",
+        "android_client_info": {
+          "package_name": "com.example.auth_fuction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795224354930-bhud6j32ntgeq8dt7jp4mcov2qk8tubh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx4auLDp5ISrnPghVNVqb5UBPPzCK2gvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795224354930-bhud6j32ntgeq8dt7jp4mcov2qk8tubh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "795224354930-02m04gd5jeccvfn4iul5fmbsedkghn80.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.theSocial"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795224354930:android:14bac82ed010ca9f7852eb",
+        "android_client_info": {
+          "package_name": "com.example.push_noti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795224354930-bhud6j32ntgeq8dt7jp4mcov2qk8tubh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx4auLDp5ISrnPghVNVqb5UBPPzCK2gvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795224354930-bhud6j32ntgeq8dt7jp4mcov2qk8tubh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "795224354930-02m04gd5jeccvfn4iul5fmbsedkghn80.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.theSocial"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
