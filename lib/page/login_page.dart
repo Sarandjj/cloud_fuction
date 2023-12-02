@@ -124,12 +124,24 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               ElevatedButton(
                 onPressed: () async {
-                  await firebaseService.deleteuser(uidController.text);
-                  //await test();
-                  //await signIn();
+                  //   await firebaseService.deleteuser(uidController.text);
+                  // await test();
+                  // await getAppCheckToken();
+                  // await signIn();
+                  final userData = await firebaseService.getUserData();
+                  print(
+                      'Name: ${userData['name']}, Phone: ${userData['phoneNumber']}, Email: ${userData['email']}');
                 },
                 child: const Text('Create Product'),
               ),
+              const SizedBox(
+                height: 20,
+              ),
+              ElevatedButton(
+                  onPressed: () {
+                    firebaseService.getuser(uidController.text);
+                  },
+                  child: const Text('getuser'))
               // Display your products here using the 'products' list
             ],
           ),
@@ -143,16 +155,16 @@ class _MyHomePageState extends State<MyHomePage> {
     await FirebaseFirestore.instance
         .collection("collectionPath")
         .doc()
-        .set({'data': 'ssss'});
+        .set({'data': 'sssss'});
     print("object");
   }
 
-  Future<bool> signIn() async {
-    final creds = await FirebaseAuth.instance.signInAnonymously();
-    debugPrint(creds.user?.uid);
-    if (creds.user != null) {
-      return true;
-    }
-    return false;
-  }
+  // Future<bool> signIn() async {
+  //   final creds = await FirebaseAuth.instance.signInAnonymously();
+  //   debugPrint(creds.user?.uid);
+  //   if (creds.user != null) {
+  //     return true;
+  //   }
+  //   return false;
+  // }
 }

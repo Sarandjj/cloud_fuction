@@ -53,11 +53,10 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCx4auLDp5ISrnPghVNVqb5UBPPzCK2gvs',
-    appId: '1:795224354930:android:3dec9575657f22767852eb',
-    messagingSenderId: '795224354930',
-    projectId: 'the-social-253a3',
-    databaseURL: 'https://the-social-253a3-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'the-social-253a3.appspot.com',
+    apiKey: 'AIzaSyBpWe8MNXAFSYDG_aYjIzLFEzBBPlaOvg4',
+    appId: '1:945918763284:android:45ab1bc47732dce6c12201',
+    messagingSenderId: '945918763284',
+    projectId: 'saran-1d0e1',
+    storageBucket: 'saran-1d0e1.appspot.com',
   );
 }

@@ -1,77 +1,40 @@
 {
   "project_info": {
-    "project_number": "795224354930",
-    "firebase_url": "https://the-social-253a3-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "the-social-253a3",
-    "storage_bucket": "the-social-253a3.appspot.com"
+    "project_number": "945918763284",
+    "project_id": "saran-1d0e1",
+    "storage_bucket": "saran-1d0e1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:795224354930:android:3dec9575657f22767852eb",
+        "mobilesdk_app_id": "1:945918763284:android:45ab1bc47732dce6c12201",
         "android_client_info": {
           "package_name": "com.example.auth_fuction"
         }
       },
       "oauth_client": [
         {
-          "client_id": "795224354930-bhud6j32ntgeq8dt7jp4mcov2qk8tubh.apps.googleusercontent.com",
+          "client_id": "945918763284-pon5m3duu9s2u9c8bv025masvvrfun21.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCx4auLDp5ISrnPghVNVqb5UBPPzCK2gvs"
+          "current_key": "AIzaSyBpWe8MNXAFSYDG_aYjIzLFEzBBPlaOvg4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "795224354930-bhud6j32ntgeq8dt7jp4mcov2qk8tubh.apps.googleusercontent.com",
+              "client_id": "945918763284-pon5m3duu9s2u9c8bv025masvvrfun21.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "795224354930-02m04gd5jeccvfn4iul5fmbsedkghn80.apps.googleusercontent.com",
+              "client_id": "945918763284-frt0p4dguce9njh6dn9p6difu1dphhpm.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.theSocial"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:795224354930:android:14bac82ed010ca9f7852eb",
-        "android_client_info": {
-          "package_name": "com.example.push_noti"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "795224354930-bhud6j32ntgeq8dt7jp4mcov2qk8tubh.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCx4auLDp5ISrnPghVNVqb5UBPPzCK2gvs"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "795224354930-bhud6j32ntgeq8dt7jp4mcov2qk8tubh.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "795224354930-02m04gd5jeccvfn4iul5fmbsedkghn80.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.theSocial"
+                "bundle_id": "com.example.projet.RunnerTests"
               }
             }
           ]
